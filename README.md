@@ -22,6 +22,9 @@ Para obtener más ayuda sobre la CLI de Angular usa `ng help` o visita la págin
 ## Capturas de pantalla o demostración
 ![frontend-newshoreAir](https://github.com/VarasMD/NewshoreAir.FrontEnd/assets/69024396/9a82e1b9-8b53-4cb2-97bc-e1bf24931f2d)
 
+## Autor
+Matias Varas
+
 -----------------------------------------
 
 # NewshoreAirFrontEnd (english)
