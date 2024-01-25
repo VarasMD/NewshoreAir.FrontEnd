@@ -1,0 +1,22 @@
+.app-container {
+  position: relative;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 4em;
+  margin: 20px;
+  color: #3498db;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

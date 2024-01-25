@@ -1,0 +1,30 @@
+<section class="container">
+  <div *ngFor="let journey of journeys" class="container-journey">
+    <div>
+      <strong>Origen:</strong> {{ journey.origin }}
+    </div>
+    <div>
+      <strong>Destino:</strong> {{ journey.destination }}
+    </div>
+    <div>
+      <strong>Precio Final:</strong> {{ journey.price }}
+    </div>
+    <hr>
+    <strong class="container-journey__title">Vuelos</strong>
+    <div *ngFor="let subFlight of journey.flights">
+      <div>
+        <strong>Origen:</strong> {{ subFlight.origin }}
+      </div>
+      <div>
+        <strong>Destino:</strong> {{ subFlight.destination }}
+      </div>
+      <div>
+        <strong>Precio:</strong> {{ subFlight.price }}
+      </div>
+      <div>
+        <strong>Transporte:</strong> {{ subFlight.transport.flightCarrier }} {{ subFlight.transport.flightNumber }}
+      </div>
+    </div>
+  </div>
+</section>
+
